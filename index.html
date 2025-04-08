@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home Page</title>
+        <link rel="stylesheet" href="constants.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index-html">
+                <img src= "picturethisLOGO.png" alt="Logo" height = "60">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto w-60 d-flex justify-content-around gap-4">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="team.html">Our Team</a>
+                    </li>
+                    
+                    <li class = "nav-item">
+                        <a class="nav-link text-white" href="events.html">Events</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="getinvolved.html">Get Involved</a>
+                    </li>
+
+                    <li class = "nav-item">
+                        <a class = "nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class = "container-fluid" style = "position: relative; height: 500px;">
+ 
+        <div class="container" style = "margin-top: 100px">
+            <div class="row align-items-center">
+                <!-- Left Column -->
+                <div class="col-md-6">
+                    <div class="tag-line">Making a difference together</div>
+                    <h1 class="home-title">Join Us in Building<br>Community Connections</h1>
+                    <p class="home-description">We believe in the power of community. Join us to create meaningful connections and unforgettable experiences through our events.</p>
+                    
+                    <div class="button-group">
+                        <a href="#" class="btn join-button">Join Now</a>
+                        <a href="#" class="btn learn-more-button">
+                            Learn More
+                            <span class="material-icons chevron">chevron_right</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Right Column -->
+                <div class="col-md-6">
+                    <img src="laughing.jpg" alt="Community members smiling together" class="hero-image">
+                </div>
+            </div>
+    </div>
+
+    <!-- Our Mission Section-->
+    <div class="container-fluid px-0">
+        <div class="rectangle" style="margin-top: 150px">
+            <div class="overlap-rectangle">
+                <h1 class="mission-text">Our Mission</h1>
+                <p class="mission-description">Our mission is to build meaningful community connections through engaging events.</p>
+            </div>     
+        </div>
+    </div>
+
+    <!-- Glaze Section -->
+    <div class="container" style = "margin-top: 100px">
+        <div class="row justify-content-center">
+            <!-- Left Column -->
+            <div class="col-lg-5 col-md-6 mb-5">
+                <div class="glaze-card">
+                    <div class="glaze-icon">
+                        <img src="friendship.png" alt="yellow cartoon image of two people holding each other" height="150">
+                    </div>
+                    <div class="glaze-content">
+                        <h2 class="friendship-title">Creating Lasting Relationships</h2>
+                        <p class="friendship-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="col-lg-5 col-md-6 mb-5">
+                <div class="glaze-card">
+                    <div class="glaze-icon">
+                        <img src="calendar.png" alt="yellow cartoon image of a calendar" height="150">
+                    </div>
+                    <div class="glaze-content">
+                        <h2 class="calendar-title">Building Bridges in the Community</h2>
+                        <p class="calendar-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stay Connected Yellow Section-->
+    <div class="container-fluid" id = "newsletter">
+        <div class="yellow-rectangle mt-5">
+            <h1 class="stay-connected-header px-5" style = "padding-top: 50px;">Stay Connected With Us</h1> <!-- Adds margin-top to header -->
+            <p class="stay-connected-text px-5" style="margin-top: 10px;">Subscribe to our newsletter for updates on events and activities in our community.</p> <!-- Adds margin-top to paragraph -->
+            
+            <form name = "submit-to-google-sheet">
+                <div class="row px-5">
+                    <div class="col-5 col-sm-6">
+                        <input type="email" class="form-control" name = "Email" placeholder="Enter your email" required style="border-radius: 0; height: 50px;">
+                    </div>
+                    <div class="col-7 col-sm-5">
+                        <button class="btn join-now-button w-50" type="submit" style="border-radius: 0; height: 50px; margin-bottom: 50px;">Join Now</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- Get in Touch Section-->
+    <div class ="container-fluid" id = "socials">
+        <div class="row align-items-center">
+
+            <div class ="text-center">
+                <h1 class ="get-in-touch-title" style = "margin-top: 75px;">Get in Touch</h1>
+                <p class = "get-in-touch-text">We'd love to hear from you!</p>
+            </div>
+            
+            <div class = "col-md-6 text-center">
+
+                <a href = "mailto:picturethisott@gmail.com" >
+                    <img src = "mail.png" alt = "blah blah blah" height = "100" style = "margin-top: 75px">
+                </a>
+
+                <h1 class = "email-title" style = "margin-top: 25px;">Email</h1>
+                <p class = "email-text">Reach us at <strong>picturethisott@gmail.com</strong> for inquiries.</p>
+            </div>
+
+            <div class = "col-md-6 text-center">
+
+                <a href = 'https://www.instagram.com/picturethis_ottawa/' target = "_blank">
+                    <img src = "instagram.png" alt = "blah blah blah" height = "100" style = "margin-top: 75px;">
+                </a>
+
+                <h1 class = "instagram-title" style = "margin-top: 25px;">Instagram</h1>
+                <p class = "instagram-text">Reach us at <strong>@picturethis_ottawa</strong> on Instagram.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer" style = "margin-top: 75px;">
+        <div class="container">
+            <div class="row">
+
+                <!-- Logo Section -->
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="footer-logo">
+                        <img src="picturethisLOGO.png" alt="Picture This" style="height: 200px;">
+                    </div>
+                </div>
+    
+                <!-- Links Section -->
+                <div class="col-lg-4 col-md-6 mb-4 footer-links">
+                    <h2 class = "footer-connect-title">Connect With Us</h2>
+                    <a href="events.html">Events Calendar</a><br>
+                    <a href="getinvolved.html">Get Involved</a><br>
+                    <a href="getinvolved.html">Support Us</a><br>
+                    <a href="getinvolved.html">Partnerships</a><br>
+                    <a href="contact.html">Contact Us</a><br>
+                </div>
+    
+                <div class="col-lg-4 col-md-6 mb-4 footer-links">
+                    <h2 class = "footer-update-title">Stay Updated</h2>
+                    <a href="#newsletter">Newsletter</a><br>
+                    <a href="#socials">Social Media</a>
+                </div>
+        </div>
+    </footer>
+
+</body>
+
+<style>
+    @font-face {
+        font-family: 'Poppins Regular';
+        src: url('Poppins-Regular.otf') format('opentype');
+    }
+
+    @font-face {
+        font-family: 'League Spartan';
+        src: url('LeagueSpartan-Bold.otf') format('opentype');
+    }
+
+
+    .body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .tag-line {
+        font-family: 'Poppins Regular';
+        color: var(--dark-blue);
+        font-size: 1.1rem;
+        background-color: rgba(63, 61, 186, 0.1);
+        display: inline-block;
+        padding: 8px 16px;
+        border-radius: 50px;
+        margin-bottom: 20px;
+    }
+
+    .home-title {
+        font-family: 'League Spartan';
+        color: var(--dark-dark-blue);
+        font-size: 3.5rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .home-description {
+        font-family: 'Poppins Regular';
+        color: var(--dark-dark-blue);
+        font-size: 1.25rem;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        opacity: 0.8;
+    }
+
+    .button-group {
+        display: flex;
+        gap: 15px;
+    }
+
+    .join-button {
+        font-family: 'Poppins Regular';
+        background-color: var(--dark-blue);
+        color: white;
+        padding: 12px 30px;
+        border-radius: 50px;
+        border: none;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .join-button:hover {
+        background-color: var(--dark-dark-blue);
+        color: white;
+    }
+
+    .learn-more-button {
+        font-family: 'Poppins Regular';
+        background-color: transparent;
+        color: var(--dark-blue);
+        padding: 12px 30px;
+        border-radius: 50px;
+        border: 2px solid var(--dark-blue);
+        font-size: 1.1rem;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .learn-more-button .chevron {
+        font-size: 20px;
+        transition: transform 0.3s ease;
+    }
+
+    .learn-more-button:hover {
+        background-color: var(--dark-blue);
+        color: white;
+    }
+
+    .learn-more-button:hover .chevron {
+        transform: translateX(10px);
+    }
+
+    .hero-image {
+        width: 100%;
+        height: 500px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px #D3d3d3;
+    }
+
+    .container-fluid {
+        padding-right:0;
+        padding-left:0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .custom-navbar {
+        background-color: var(--dark-blue) !important;
+    }
+
+    .custom-navbar a:hover {
+        text-decoration: underline;
+        color: var(--hover-color) !important;
+    }
+
+    .nav-item {
+        font-family: 'Poppins Regular';
+        font-size: 21px;
+        color: white;
+    }
+
+    .container-fluid {
+        position: relative;
+    }
+
+    .rectangle {
+        position: relative;
+        height: 150px; 
+        background-color: var(--light-blue);
+        width: 100%;
+    }
+
+    .overlap-rectangle {
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        background-color: var(--dark-blue); 
+        width: 80%;
+        max-width: 1000px;
+        min-width: 300px;
+        padding: 40px 30px;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .mission-text {
+        font-family: 'League Spartan';
+        color: white;
+        font-size: var(--title-size);
+        margin-bottom: 15px;
+    }
+
+    .mission-description {
+        font-family: 'Poppins Regular';
+        color: white;
+        font-size: var(--text-size);
+        margin: 0;
+        line-height: 1.6;
+        padding: 0 20px;
+    }
+
+    .yellow-rectangle {
+        background-color: var(--yellow);
+    }
+
+    .stay-connected-header {
+        color: var(--dark-blue);
+        font-family: 'League Spartan';
+        font-size: var(--title-size);
+    }
+
+    .stay-connected-text {
+        color: var(--dark-blue);
+        font-size: 1.5rem;
+        font-family: 'Poppins Regular';
+    }
+
+    .glaze-card {
+        background-color: white;
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        height: 100%;
+        transition: transform 0.3s ease;
+    }
+
+    .glaze-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .glaze-icon {
+        margin-bottom: 25px;
+    }
+
+    .glaze-icon img {
+        transition: transform 0.3s ease;
+    }
+
+    .glaze-card:hover .glaze-icon img {
+        transform: scale(1.05);
+    }
+
+    .glaze-content {
+        padding: 0 15px;
+    }
+
+    .friendship-title, .calendar-title {
+        font-family: 'League Spartan';
+        color: var(--dark-dark-blue);
+        font-size: var(--header-size);
+        margin-bottom: 15px;
+    }
+
+    .friendship-text, .calendar-text {
+        font-family: 'Poppins Regular';
+        color: var(--dark-dark-blue);
+        font-size: var(--text-size);
+        line-height: 1.6;
+        margin: 0;
+        opacity: 0.8;
+    }
+
+    .join-now-button {
+        background-color: var(--dark-blue);
+        font-family: 'Poppins Regular';
+        color: white;
+
+    }
+
+    .get-in-touch-title {
+        font-family: 'League Spartan';
+        color: var(--dark-dark-blue);
+        font-size: var(--title-size);
+    }
+
+    .get-in-touch-text {
+        font-family: 'Poppins Regular';
+        color: var(--dark-dark-blue);
+        font-size: var(--text-size);
+    }
+
+    .email-title {
+        font-family: 'League Spartan';
+        color: var(--dark-dark-blue);
+        font-size: var(--title-size);
+    }
+
+    .email-text {
+        font-family: 'Poppins Regular';
+        color: var(--dark-dark-blue);
+        font-size: var(--text-size);
+    }
+
+    .instagram-title {
+        font-family: 'League Spartan';
+        color: var(--dark-dark-blue);
+        font-size: var(--title-size);
+    }
+
+    .instagram-text {
+        font-family: 'Poppins Regular';
+        color: var(--dark-dark-blue);
+        font-size: var(--text-size);
+
+    }
+
+    .footer {
+            background-color: var(--dark-blue); 
+            color: white;
+            padding: 40px 0;
+    }
+
+    .footer a:hover {
+        color: var(--hover-color);
+    }
+
+    .subscribe-box {
+        display: flex;
+        gap: 10px;
+    }
+
+    .subscribe-box input {
+        border-radius: 5px;
+        border: none;
+        padding: 8px;
+        width: 200px;
+    }
+
+    .subscribe-box button {
+        background-color: var(--yellow); 
+        border: none;
+        padding: 8px 15px;
+        border-radius: 5px;
+        font-family: 'Poppins Regular';
+    }
+
+    .footer-links a {
+        text-decoration: underline;
+        font-family: 'Poppins Regular';
+        color: white;
+    }
+
+    .footer-connect-title {
+        font-family: 'League Spartan';
+    }
+
+    .footer-update-title {
+        font-family: 'League Spartan';
+    }
+
+    .footer-subscribe-title {
+        font-family: 'League Spartan';
+    }
+
+    .footer-subscribe-text {
+        font-family: 'Poppins Regular';
+    }
+
+    @media (max-width: 768px) {
+        .overlap-rectangle {
+            width: 90%;
+            padding: 30px 20px;
+        }
+
+        .mission-text {
+            font-size: calc(var(--title-size) * 0.8);
+            margin-bottom: 10px;
+        }
+
+        .mission-description {
+            font-size: calc(var(--text-size) * 0.9);
+            padding: 0 10px;
+        }
+
+        .glaze-card {
+            padding: 30px 20px;
+            margin-bottom: 30px;
+        }
+
+        .glaze-icon {
+            margin-bottom: 20px;
+        }
+
+        .friendship-title, .calendar-title {
+            font-size: calc(var(--header-size) * 0.9);
+        }
+    }
+
+    @media (max-width: 480px) {
+        .rectangle {
+            height: 180px;
+        }
+
+        .overlap-rectangle {
+            width: 95%;
+            padding: 25px 15px;
+        }
+
+        .mission-text {
+            font-size: calc(var(--title-size) * 0.7);
+        }
+
+        .mission-description {
+            font-size: calc(var(--text-size) * 0.85);
+            padding: 0 5px;
+        }
+    }
+
+</style>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw5xxY36vEcLf1ej5gZK7qegOAAyWZqA4OrWGkFwn9Sq0SeoW1Us6hykuqOkw8AqA/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+
+</script>
+
+</html>
